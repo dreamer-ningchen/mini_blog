@@ -1,0 +1,19 @@
+<!-- 蒙版效果 -->
+<view class="mask" hidden="{{isHidden}}" catchtap="closeMask">
+    <view class="masks" catchtap="prevent" animation="{{ani}}">
+        <view class="box">
+            <image class="leftImage" mode="widthFix" src="https://www.ningchen.xyz/upload/2020/04/logo-c978755973e94761877140838b8de1a6.jpg"></image>
+            <view class="right">
+                <view class="title">
+                    <text class="name">NingChen</text>
+                </view>
+                <view class="info">
+                    <view class="field">Email</view>
+                    <view class="value">1449931502@qq.com</view>
+                    <view class="field">博客主页地址</view>
+                    <view class="value">www.ningchen.xyz</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
